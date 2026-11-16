@@ -45,7 +45,7 @@ export class R {
     data = undefined,
   ): any {
     return {
-      [`${paramtype}${CUSTOM_ROUTE_AGRS_METADATA}:${index}`]: {
+      [`${paramtype}${CUSTOM_ROUTE_ARGS_METADATA}:${index}`]: {
         index,
         factory: (_, ctx) => R.getContextRequest(ctx)[paramtype],
         data,

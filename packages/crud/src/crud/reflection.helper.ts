@@ -1,6 +1,6 @@
 import { RouteParamtypes } from '@nestjs/common/enums/route-paramtypes.enum';
 import {
-  CUSTOM_ROUTE_AGRS_METADATA,
+  CUSTOM_ROUTE_ARGS_METADATA,
   INTERCEPTORS_METADATA,
   METHOD_METADATA,
   PARAMTYPES_METADATA,

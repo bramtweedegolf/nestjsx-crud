@@ -1,12 +1,5 @@
-[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine/)
-
 <div align="center">
-  <h1>:point_right:<a href="https://github.com/nestjsx/crud/issues/784">You can help NestJs CRUD
-  </a></h1>
-</div>
-
-<div align="center">
-  <h1>CRUD</h1>
+  <h1>CRUD (@nestjsx/crud)</h1>
 </div>
 <div align="center">
   <strong>for RESTful APIs built with NestJs</strong>
@@ -15,11 +8,8 @@
 <br />
 
 <div align="center">
-  <a href="https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md">
-    <img src="https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg" alt="StandWithUkraine" />
-  </a>
   <a href="https://travis-ci.org/nestjsx/crud">
-    <img src="https://github.com/nestjsx/crud/workflows/Tests/badge.svg" alt="Build" />
+    <img src="https://travis-ci.org/nestjsx/crud.svg?branch=master" alt="Build" />
   </a>
   <a href="https://coveralls.io/github/nestjsx/crud?branch=master">
     <img src="https://coveralls.io/repos/github/nestjsx/crud/badge.svg" alt="Coverage" />
@@ -33,11 +23,23 @@
   <a href="https://www.npmjs.com/org/nestjsx">
     <img src="https://img.shields.io/npm/dm/@nestjsx/crud.svg" alt="npm downloads" />
   </a>
+  <a href="https://npm.packagequality.com/#?package=@nestjsx%2Fcrud">
+    <img src="https://npm.packagequality.com/shield/%40nestjsx%2Fcrud.svg" alt="Package Quality" />
+  </a>
+  <a href="https://renovatebot.com/">
+    <img src="https://img.shields.io/badge/renovate-enabled-brightgreen.svg" alt="Renovate" />
+  </a>
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs welcome" />
   </a>
   <a href="https://github.com/marmelab/awesome-rest#nodejs">
     <img src="https://raw.githubusercontent.com/nestjsx/crud/master/img/awesome-rest.svg?sanitize=true" alt="Awesome REST" />
+  </a>
+  <a href="https://github.com/juliandavidmr/awesome-nestjs#components--libraries">
+    <img src="https://raw.githubusercontent.com/nestjsx/crud/master/img/awesome-nest.svg?sanitize=true" alt="Awesome Nest" />
+  </a>
+  <a href="https://github.com/nestjs/nest">
+    <img src="https://raw.githubusercontent.com/nestjsx/crud/master/img/nest-powered.svg?sanitize=true" alt="Nest Powered" />
   </a>
   <a href="#individuals" alt="Sponsors on Open Collective">
     <img src="https://opencollective.com/nestjsx/backers/badge.svg" />
@@ -48,14 +50,11 @@
 </div>
 
 <div align="center">
-  <sub>Built with :purple_heart: by
+  <sub>Built by
   <a href="https://twitter.com/MichaelYali">@MichaelYali</a> and
   <a href="https://github.com/nestjsx/crud/graphs/contributors">
     Contributors
   </a>
-  <div align="center">
-    :star2: :eyes: :zap: :boom:
-  </div>
 </div>
 
 <br />
@@ -64,25 +63,31 @@ We believe that everyone who's working with NestJs and building some RESTful ser
 
 ## Features
 
-<img align="right" src="img/crud-usage2.png" alt="CRUD usage" />
+<img align="right" src="https://raw.githubusercontent.com/nestjsx/crud/master/img/crud-usage2.png" alt="CRUD usage" />
 
-- :electric_plug: Super easy to install and start using the full-featured controllers and services :point_right:
+- Super easy to install and start using the full-featured controllers and services :point_right:
 
-- :octopus: DB and service agnostic extendable CRUD controllers
+- DB and service agnostic extendable CRUD controllers
 
-- :mag_right: Reach query parsing with filtering, pagination, sorting, relations, nested relations, cache, etc.
+- Reach query parsing with filtering, pagination, sorting, relations, nested relations, cache, etc.
 
-- :telescope: Framework agnostic package with query builder for a frontend usage
+- Framework agnostic package with query builder for a frontend usage
 
-- :space_invader: Query, path params and DTOs validation included
+- Query, path params and DTOs validation included
 
-- :clapper: Overriding controller methods with ease
+- Overriding controller methods with ease
 
-- :wrench: Tiny config (including globally)
+- Tiny config (including globally)
 
-- :gift: Additional helper decorators
+- Additional helper decorators
 
-- :pencil2: Swagger documentation
+- Swagger documentation
+
+## Install
+
+```shell
+npm i @nestjsx/crud class-transformer class-validator
+```
 
 ## Packages
 
@@ -92,20 +97,20 @@ We believe that everyone who's working with NestJs and building some RESTful ser
 
 ## Documentation
 
-- :dart: [General Information](https://github.com/nestjsx/crud/wiki#why)
-- :video_game: [CRUD Controllers](https://github.com/nestjsx/crud/wiki/Controllers#description)
-- :horse_racing: [CRUD ORM Services](https://github.com/nestjsx/crud/wiki/Services#description)
-- :trumpet: [Handling Requests](https://github.com/nestjsx/crud/wiki/Requests#description)
+- [General Information](https://github.com/nestjsx/crud/wiki#why)
+- [CRUD Controllers](https://github.com/nestjsx/crud/wiki/Controllers#description)
+- [CRUD ORM Services](https://github.com/nestjsx/crud/wiki/Services#description)
+- [Handling Requests](https://github.com/nestjsx/crud/wiki/Requests#description)
 
 ## Support
 
-Any support is welcome. At least you can give us a star :star:
+Any support is welcome. At least you can give us a star.
 
 ## Contributors
 
 ### Code Contributors
 
-This project exists thanks to all the people who contribute. [[Contribute](CODE_OF_CONDUCT.md)].
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
 <a href="https://github.com/nestjsx/crud/graphs/contributors"><img src="https://opencollective.com/nestjsx/contributors.svg?width=890&button=false" /></a>
 
 ### Financial Contributors
